@@ -1,0 +1,11 @@
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/controller/ConsumerController.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/service/impl/UserServiceImpl.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/config/JpaConfig.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/AConsumerApplication.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/controller/UserController.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/config/DBConfig.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/repository/model/User.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/dao/UserJpaDao.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/remote/HelloRemote.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/jdk8stream/StreamDemo.java
+/Users/wushuaiping/IdeaProjects/springcloud-demo/springcloud-consumer-a/src/main/java/com/wushuaiping/springcloud/service/IUserService.java

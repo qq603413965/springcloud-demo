@@ -1,0 +1,252 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< com.wushuaiping:springcloud-hystrix >-----------------
+[INFO] Building springcloud-hystrix 0.0.1-DEMO
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:tree (default-cli) @ springcloud-hystrix ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.pom
+Progress (1): 2.8/4.7 kBProgress (1): 4.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.pom (4.7 kB at 3.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.2/doxia-sink-api-1.2.pom (1.6 kB at 4.3 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom
+Progress (1): 2.1/19 kBProgress (1): 4.9/19 kBProgress (1): 7.6/19 kBProgress (1): 10/19 kB Progress (1): 13/19 kBProgress (1): 16/19 kBProgress (1): 18/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.2/doxia-1.2.pom (19 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.2/doxia-logging-api-1.2.pom
+Progress (1): 1.6 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.2/doxia-logging-api-1.2.pom (1.6 kB at 4.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.pom
+Progress (1): 2.1/4.0 kBProgress (1): 4.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.pom (4.0 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.2/doxia-site-renderer-1.2.pom
+Progress (1): 2.1/6.2 kBProgress (1): 4.9/6.2 kBProgress (1): 6.2 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.2/doxia-site-renderer-1.2.pom (6.2 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.2/doxia-sitetools-1.2.pom
+Progress (1): 2.8/16 kBProgress (1): 5.5/16 kBProgress (1): 8.3/16 kBProgress (1): 11/16 kB Progress (1): 14/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.2/doxia-sitetools-1.2.pom (16 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.pom
+Progress (1): 2.1/3.1 kBProgress (1): 3.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.2/doxia-decoration-model-1.2.pom (3.1 kB at 8.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.2/doxia-module-xhtml-1.2.pom (1.8 kB at 4.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.2/doxia-modules-1.2.pom
+Progress (1): 2.1/2.5 kBProgress (1): 2.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.2/doxia-modules-1.2.pom (2.5 kB at 6.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.pom
+Progress (1): 2.1/5.6 kBProgress (1): 4.9/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.2/doxia-module-fml-1.2.pom (5.6 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom
+Progress (1): 2.1/3.9 kBProgress (1): 3.9 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.pom (3.9 kB at 10 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom
+Progress (1): 2.1/4.1 kBProgress (1): 4.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.pom (4.1 kB at 11 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom
+Progress (1): 2.1/2.7 kBProgress (1): 2.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/8/maven-shared-components-8.pom (2.7 kB at 6.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom
+Progress (1): 2.1/21 kBProgress (1): 4.9/21 kBProgress (1): 7.7/21 kBProgress (1): 10/21 kB Progress (1): 13/21 kBProgress (1): 16/21 kBProgress (1): 19/21 kBProgress (1): 21 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/7/maven-parent-7.pom (21 kB at 51 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom
+Progress (1): 765 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.2/maven-artifact-2.0.2.pom (765 B at 2.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom
+Progress (1): 2.1/13 kBProgress (1): 4.9/13 kBProgress (1): 7.7/13 kBProgress (1): 10/13 kB Progress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.2/maven-2.0.2.pom (13 kB at 34 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom
+Progress (1): 767 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.1/plexus-utils-1.1.pom (767 B at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom
+Progress (1): 1.4 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.2/maven-artifact-manager-2.0.2.pom (1.4 kB at 3.7 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom
+Progress (1): 1.3 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.2/maven-repository-metadata-2.0.2.pom (1.3 kB at 3.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom
+Progress (1): 588 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.pom (588 B at 1.6 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom
+Progress (1): 2.1/6.4 kBProgress (1): 4.9/6.4 kBProgress (1): 6.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-alpha-6/wagon-1.0-alpha-6.pom (6.4 kB at 17 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.pom
+Progress (1): 2.1/5.4 kBProgress (1): 4.9/5.4 kBProgress (1): 5.4 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.pom (5.4 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom
+Progress (1): 1.9 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.pom (1.9 kB at 5.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.2/asm-parent-5.0.2.pom
+Progress (1): 2.1/5.5 kBProgress (1): 4.9/5.5 kBProgress (1): 5.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.2/asm-parent-5.0.2.pom (5.5 kB at 14 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-project/2.0.5/maven-project-2.0.5.pom (1.8 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.5/maven-2.0.5.pom
+Progress (1): 2.8/5.7 kBProgress (1): 5.5/5.7 kBProgress (1): 5.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven/2.0.5/maven-2.0.5.pom (5.7 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-settings/2.0.5/maven-settings-2.0.5.pom (1.7 kB at 4.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom
+Progress (1): 2.1/2.7 kBProgress (1): 2.7 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-model/2.0.5/maven-model-2.0.5.pom (2.7 kB at 7.2 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-profile/2.0.5/maven-profile-2.0.5.pom (1.7 kB at 4.4 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom
+Progress (1): 1.8 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact-manager/2.0.5/maven-artifact-manager-2.0.5.pom (1.8 kB at 4.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom
+Progress (1): 1.5 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-repository-metadata/2.0.5/maven-repository-metadata-2.0.5.pom (1.5 kB at 3.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom
+Progress (1): 727 B                   Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/2.0.5/maven-artifact-2.0.5.pom (727 B at 1.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom
+Progress (1): 2.1/7.3 kBProgress (1): 4.9/7.3 kBProgress (1): 7.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.pom (7.3 kB at 19 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.pom
+Progress (1): 2.1/5.6 kBProgress (1): 4.9/5.6 kBProgress (1): 5.6 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.pom (5.6 kB at 15 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar
+Progress (1): 2.1/17 kBProgress (1): 4.9/17 kBProgress (1): 7.6/17 kBProgress (1): 10/17 kB Progress (1): 13/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-impl/2.2/maven-reporting-impl-2.2.jar (17 kB at 42 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar
+Progress (1): 2.1/154 kBProgress (1): 4.9/154 kBProgress (1): 7.7/154 kBProgress (1): 10/154 kB Progress (1): 13/154 kBProgress (2): 13/154 kB | 2.1/39 kBProgress (2): 13/154 kB | 4.9/39 kBProgress (2): 13/154 kB | 7.6/39 kBProgress (2): 13/154 kB | 10/39 kB Progress (2): 13/154 kB | 13/39 kBProgress (2): 13/154 kB | 16/39 kBProgress (2): 13/154 kB | 19/39 kBProgress (2): 13/154 kB | 21/39 kBProgress (2): 13/154 kB | 24/39 kBProgress (2): 13/154 kB | 27/39 kBProgress (2): 13/154 kB | 30/39 kBProgress (2): 13/154 kB | 32/39 kBProgress (2): 13/154 kB | 35/39 kBProgress (2): 13/154 kB | 38/39 kBProgress (2): 13/154 kB | 39 kB   Progress (3): 13/154 kB | 39 kB | 2.1/38 kBProgress (4): 13/154 kB | 39 kB | 2.1/38 kB | 2.1/38 kBProgress (4): 13/154 kB | 39 kB | 4.9/38 kB | 2.1/38 kBProgress (4): 13/154 kB | 39 kB | 4.9/38 kB | 4.9/38 kBProgress (4): 13/154 kB | 39 kB | 4.9/38 kB | 7.7/38 kBProgress (4): 13/154 kB | 39 kB | 7.6/38 kB | 7.7/38 kBProgress (4): 13/154 kB | 39 kB | 7.6/38 kB | 10/38 kB Progress (4): 13/154 kB | 39 kB | 10/38 kB | 10/38 kB Progress (4): 13/154 kB | 39 kB | 10/38 kB | 13/38 kBProgress (4): 13/154 kB | 39 kB | 13/38 kB | 13/38 kBProgress (5): 13/154 kB | 39 kB | 13/38 kB | 13/38 kB | 2.1/168 kBProgress (5): 13/154 kB | 39 kB | 13/38 kB | 13/38 kB | 4.9/168 kBProgress (5): 13/154 kB | 39 kB | 13/38 kB | 13/38 kB | 7.7/168 kBProgress (5): 13/154 kB | 39 kB | 13/38 kB | 13/38 kB | 10/168 kB Progress (5): 16/154 kB | 39 kB | 13/38 kB | 13/38 kB | 10/168 kBProgress (5): 19/154 kB | 39 kB | 13/38 kB | 13/38 kB | 10/168 kBProgress (5): 19/154 kB | 39 kB | 13/38 kB | 13/38 kB | 13/168 kBProgress (5): 21/154 kB | 39 kB | 13/38 kB | 13/38 kB | 13/168 kBProgress (5): 24/154 kB | 39 kB | 13/38 kB | 13/38 kB | 13/168 kBProgress (5): 27/154 kB | 39 kB | 13/38 kB | 13/38 kB | 13/168 kBProgress (5): 30/154 kB | 39 kB | 13/38 kB | 13/38 kB | 13/168 kBProgress (5): 32/154 kB | 39 kB | 13/38 kB | 13/38 kB | 13/168 kBProgress (5): 32/154 kB | 39 kB | 13/38 kB | 16/38 kB | 13/168 kBProgress (5): 32/154 kB | 39 kB | 13/38 kB | 19/38 kB | 13/168 kBProgress (5): 32/154 kB | 39 kB | 13/38 kB | 21/38 kB | 13/168 kBProgress (5): 32/154 kB | 39 kB | 13/38 kB | 24/38 kB | 13/168 kB                                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-io/1.1/maven-shared-io-1.1.jar (39 kB at 46 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar
+Progress (4): 32/154 kB | 13/38 kB | 27/38 kB | 13/168 kBProgress (4): 32/154 kB | 13/38 kB | 30/38 kB | 13/168 kBProgress (4): 32/154 kB | 13/38 kB | 32/38 kB | 13/168 kBProgress (4): 32/154 kB | 13/38 kB | 35/38 kB | 13/168 kBProgress (4): 32/154 kB | 16/38 kB | 35/38 kB | 13/168 kBProgress (4): 32/154 kB | 19/38 kB | 35/38 kB | 13/168 kBProgress (4): 32/154 kB | 19/38 kB | 38 kB | 13/168 kB   Progress (4): 32/154 kB | 19/38 kB | 38 kB | 16/168 kBProgress (4): 32/154 kB | 19/38 kB | 38 kB | 19/168 kBProgress (4): 32/154 kB | 21/38 kB | 38 kB | 19/168 kBProgress (4): 32/154 kB | 21/38 kB | 38 kB | 21/168 kBProgress (4): 32/154 kB | 24/38 kB | 38 kB | 21/168 kBProgress (4): 32/154 kB | 24/38 kB | 38 kB | 24/168 kBProgress (4): 36/154 kB | 24/38 kB | 38 kB | 24/168 kBProgress (4): 40/154 kB | 24/38 kB | 38 kB | 24/168 kBProgress (4): 44/154 kB | 24/38 kB | 38 kB | 24/168 kBProgress (4): 49/154 kB | 24/38 kB | 38 kB | 24/168 kBProgress (4): 49/154 kB | 27/38 kB | 38 kB | 24/168 kBProgress (4): 49/154 kB | 27/38 kB | 38 kB | 27/168 kBProgress (4): 49/154 kB | 30/38 kB | 38 kB | 27/168 kBProgress (4): 49/154 kB | 30/38 kB | 38 kB | 30/168 kBProgress (4): 49/154 kB | 30/38 kB | 38 kB | 32/168 kBProgress (4): 49/154 kB | 32/38 kB | 38 kB | 32/168 kBProgress (4): 49/154 kB | 35/38 kB | 38 kB | 32/168 kBProgress (4): 53/154 kB | 35/38 kB | 38 kB | 32/168 kBProgress (4): 57/154 kB | 35/38 kB | 38 kB | 32/168 kBProgress (4): 61/154 kB | 35/38 kB | 38 kB | 32/168 kBProgress (4): 65/154 kB | 35/38 kB | 38 kB | 32/168 kBProgress (4): 65/154 kB | 38/38 kB | 38 kB | 32/168 kBProgress (4): 65/154 kB | 38 kB | 38 kB | 32/168 kB   Progress (4): 69/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 73/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 77/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 81/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 85/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 89/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 94/154 kB | 38 kB | 38 kB | 32/168 kBProgress (4): 98/154 kB | 38 kB | 38 kB | 32/168 kBProgress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 2.8/43 kBProgress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 5.5/43 kBProgress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 8.3/43 kBProgress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 11/43 kB Progress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 14/43 kBProgress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 16/43 kBProgress (5): 98/154 kB | 38 kB | 38 kB | 32/168 kB | 19/43 kB                                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar (38 kB at 35 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.jar
+Progress (4): 98/154 kB | 38 kB | 32/168 kB | 22/43 kBProgress (4): 98/154 kB | 38 kB | 32/168 kB | 25/43 kBProgress (4): 98/154 kB | 38 kB | 32/168 kB | 27/43 kBProgress (4): 98/154 kB | 38 kB | 32/168 kB | 30/43 kBProgress (4): 98/154 kB | 38 kB | 32/168 kB | 33/43 kBProgress (4): 98/154 kB | 38 kB | 36/168 kB | 33/43 kBProgress (4): 98/154 kB | 38 kB | 40/168 kB | 33/43 kBProgress (4): 98/154 kB | 38 kB | 44/168 kB | 33/43 kBProgress (4): 98/154 kB | 38 kB | 49/168 kB | 33/43 kBProgress (4): 98/154 kB | 38 kB | 49/168 kB | 37/43 kBProgress (4): 98/154 kB | 38 kB | 49/168 kB | 41/43 kBProgress (4): 98/154 kB | 38 kB | 49/168 kB | 43 kB   Progress (4): 102/154 kB | 38 kB | 49/168 kB | 43 kBProgress (4): 106/154 kB | 38 kB | 49/168 kB | 43 kBProgress (4): 110/154 kB | 38 kB | 49/168 kB | 43 kBProgress (4): 114/154 kB | 38 kB | 49/168 kB | 43 kBProgress (4): 114/154 kB | 38 kB | 53/168 kB | 43 kBProgress (4): 114/154 kB | 38 kB | 57/168 kB | 43 kBProgress (4): 114/154 kB | 38 kB | 61/168 kB | 43 kBProgress (4): 114/154 kB | 38 kB | 65/168 kB | 43 kBProgress (4): 118/154 kB | 38 kB | 65/168 kB | 43 kBProgress (4): 122/154 kB | 38 kB | 65/168 kB | 43 kBProgress (4): 126/154 kB | 38 kB | 65/168 kB | 43 kBProgress (4): 130/154 kB | 38 kB | 65/168 kB | 43 kBProgress (4): 130/154 kB | 38 kB | 69/168 kB | 43 kBProgress (4): 130/154 kB | 38 kB | 73/168 kB | 43 kBProgress (4): 130/154 kB | 38 kB | 77/168 kB | 43 kBProgress (4): 130/154 kB | 38 kB | 81/168 kB | 43 kBProgress (4): 135/154 kB | 38 kB | 81/168 kB | 43 kBProgress (4): 139/154 kB | 38 kB | 81/168 kB | 43 kBProgress (4): 143/154 kB | 38 kB | 81/168 kB | 43 kBProgress (4): 147/154 kB | 38 kB | 81/168 kB | 43 kBProgress (4): 151/154 kB | 38 kB | 81/168 kB | 43 kBProgress (4): 154 kB | 38 kB | 81/168 kB | 43 kB    Progress (4): 154 kB | 38 kB | 85/168 kB | 43 kBProgress (4): 154 kB | 38 kB | 89/168 kB | 43 kBProgress (4): 154 kB | 38 kB | 94/168 kB | 43 kBProgress (4): 154 kB | 38 kB | 98/168 kB | 43 kB                                                Downloaded from central: https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar (38 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar
+Progress (4): 154 kB | 98/168 kB | 43 kB | 2.1/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 4.9/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 7.7/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 10/32 kB Progress (4): 154 kB | 98/168 kB | 43 kB | 13/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 16/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 19/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 21/32 kBProgress (4): 154 kB | 98/168 kB | 43 kB | 24/32 kBProgress (4): 154 kB | 102/168 kB | 43 kB | 24/32 kBProgress (4): 154 kB | 106/168 kB | 43 kB | 24/32 kBProgress (4): 154 kB | 110/168 kB | 43 kB | 24/32 kBProgress (4): 154 kB | 110/168 kB | 43 kB | 27/32 kBProgress (4): 154 kB | 114/168 kB | 43 kB | 27/32 kBProgress (4): 154 kB | 114/168 kB | 43 kB | 30/32 kBProgress (4): 154 kB | 114/168 kB | 43 kB | 32 kB                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-alpha-6/wagon-provider-api-1.0-alpha-6.jar (43 kB at 33 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar
+Progress (3): 154 kB | 118/168 kB | 32 kBProgress (3): 154 kB | 122/168 kB | 32 kBProgress (3): 154 kB | 126/168 kB | 32 kBProgress (3): 154 kB | 130/168 kB | 32 kBProgress (3): 154 kB | 135/168 kB | 32 kBProgress (3): 154 kB | 139/168 kB | 32 kBProgress (3): 154 kB | 143/168 kB | 32 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.2/doxia-core-1.2.jar (154 kB at 111 kB/s)
+Progress (2): 147/168 kB | 32 kB                                Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.jar
+Progress (2): 151/168 kB | 32 kBProgress (2): 155/168 kB | 32 kBProgress (2): 159/168 kB | 32 kBProgress (2): 163/168 kB | 32 kBProgress (2): 167/168 kB | 32 kBProgress (2): 168 kB | 32 kB    Progress (3): 168 kB | 32 kB | 2.1/53 kBProgress (3): 168 kB | 32 kB | 4.9/53 kBProgress (3): 168 kB | 32 kB | 7.7/53 kBProgress (3): 168 kB | 32 kB | 10/53 kB Progress (3): 168 kB | 32 kB | 13/53 kB                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-analyzer/1.6/maven-dependency-analyzer-1.6.jar (32 kB at 22 kB/s)
+Progress (2): 168 kB | 16/53 kBProgress (2): 168 kB | 19/53 kBProgress (2): 168 kB | 21/53 kBProgress (2): 168 kB | 24/53 kBProgress (2): 168 kB | 27/53 kBProgress (3): 168 kB | 27/53 kB | 4.1/64 kBProgress (3): 168 kB | 27/53 kB | 7.6/64 kBProgress (3): 168 kB | 30/53 kB | 7.6/64 kBProgress (3): 168 kB | 30/53 kB | 12/64 kB Progress (3): 168 kB | 30/53 kB | 16/64 kBProgress (3): 168 kB | 32/53 kB | 16/64 kBProgress (3): 168 kB | 32/53 kB | 20/64 kBProgress (3): 168 kB | 32/53 kB | 24/64 kBProgress (3): 168 kB | 32/53 kB | 28/64 kBProgress (3): 168 kB | 32/53 kB | 32/64 kBProgress (3): 168 kB | 32/53 kB | 36/64 kBProgress (3): 168 kB | 32/53 kB | 40/64 kBProgress (3): 168 kB | 32/53 kB | 44/64 kBProgress (3): 168 kB | 32/53 kB | 49/64 kBProgress (3): 168 kB | 36/53 kB | 49/64 kBProgress (3): 168 kB | 40/53 kB | 49/64 kBProgress (3): 168 kB | 44/53 kB | 49/64 kBProgress (3): 168 kB | 49/53 kB | 49/64 kBProgress (3): 168 kB | 49/53 kB | 53/64 kBProgress (3): 168 kB | 49/53 kB | 57/64 kBProgress (3): 168 kB | 49/53 kB | 61/64 kBProgress (3): 168 kB | 49/53 kB | 64 kB   Progress (4): 168 kB | 49/53 kB | 64 kB | 1.3/30 kBProgress (4): 168 kB | 49/53 kB | 64 kB | 4.1/30 kBProgress (4): 168 kB | 49/53 kB | 64 kB | 5.4/30 kB                                                   Downloaded from central: https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.6/commons-digester-1.6.jar (168 kB at 106 kB/s)
+Progress (3): 49/53 kB | 64 kB | 8.2/30 kBProgress (3): 49/53 kB | 64 kB | 9.5/30 kBProgress (3): 49/53 kB | 64 kB | 12/30 kB Progress (3): 49/53 kB | 64 kB | 14/30 kBProgress (3): 49/53 kB | 64 kB | 16/30 kBProgress (3): 49/53 kB | 64 kB | 18/30 kBProgress (3): 49/53 kB | 64 kB | 20/30 kBProgress (3): 49/53 kB | 64 kB | 23/30 kBProgress (3): 49/53 kB | 64 kB | 26/30 kBProgress (3): 49/53 kB | 64 kB | 29/30 kBProgress (3): 49/53 kB | 64 kB | 30 kB   Progress (3): 53/53 kB | 64 kB | 30 kBProgress (3): 53 kB | 64 kB | 30 kB                                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/2.2/maven-dependency-tree-2.2.jar (64 kB at 37 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.1.1/maven-invoker-2.1.1.jar (30 kB at 17 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar (53 kB at 29 kB/s)
+[INFO] com.wushuaiping:springcloud-hystrix:war:0.0.1-DEMO
+[INFO] +- org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE:compile
+[INFO] |  +- org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot:jar:1.5.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-autoconfigure:jar:1.5.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-logging:jar:1.5.4.RELEASE:compile
+[INFO] |  |  |  +- org.slf4j:jcl-over-slf4j:jar:1.7.25:compile
+[INFO] |  |  |  +- org.slf4j:jul-to-slf4j:jar:1.7.25:compile
+[INFO] |  |  |  \- org.slf4j:log4j-over-slf4j:jar:1.7.25:compile
+[INFO] |  |  \- org.yaml:snakeyaml:jar:1.17:runtime
+[INFO] |  +- org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.4.RELEASE:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.15:compile
+[INFO] |  |  +- org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.15:compile
+[INFO] |  |  \- org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.15:compile
+[INFO] |  +- org.hibernate:hibernate-validator:jar:5.3.5.Final:compile
+[INFO] |  |  +- javax.validation:validation-api:jar:1.1.0.Final:compile
+[INFO] |  |  +- org.jboss.logging:jboss-logging:jar:3.3.1.Final:compile
+[INFO] |  |  \- com.fasterxml:classmate:jar:1.3.3:compile
+[INFO] |  +- com.fasterxml.jackson.core:jackson-databind:jar:2.8.8:compile
+[INFO] |  |  +- com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0:compile
+[INFO] |  |  \- com.fasterxml.jackson.core:jackson-core:jar:2.8.8:compile
+[INFO] |  +- org.springframework:spring-web:jar:4.3.9.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-aop:jar:4.3.9.RELEASE:compile
+[INFO] |  |  +- org.springframework:spring-beans:jar:4.3.9.RELEASE:compile
+[INFO] |  |  \- org.springframework:spring-context:jar:4.3.9.RELEASE:compile
+[INFO] |  \- org.springframework:spring-webmvc:jar:4.3.9.RELEASE:compile
+[INFO] |     \- org.springframework:spring-expression:jar:4.3.9.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-eureka:jar:1.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter:jar:1.1.7.RELEASE:compile
+[INFO] |  |  +- org.springframework.cloud:spring-cloud-context:jar:1.1.7.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE:compile
+[INFO] |  |     \- org.bouncycastle:bcpkix-jdk15on:jar:1.55:compile
+[INFO] |  |        \- org.bouncycastle:bcprov-jdk15on:jar:1.55:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-core:jar:1.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.2.4.RELEASE:compile
+[INFO] |  +- com.netflix.eureka:eureka-client:jar:1.4.12:compile
+[INFO] |  |  +- org.codehaus.jettison:jettison:jar:1.3.7:runtime
+[INFO] |  |  |  \- stax:stax-api:jar:1.0.1:runtime
+[INFO] |  |  +- com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0:runtime
+[INFO] |  |  |  +- com.netflix.netflix-commons:netflix-infix:jar:0.3.0:runtime
+[INFO] |  |  |  |  +- commons-jxpath:commons-jxpath:jar:1.3:runtime
+[INFO] |  |  |  |  +- joda-time:joda-time:jar:2.9.9:runtime
+[INFO] |  |  |  |  +- org.antlr:antlr-runtime:jar:3.4:runtime
+[INFO] |  |  |  |  |  +- org.antlr:stringtemplate:jar:3.2.1:runtime
+[INFO] |  |  |  |  |  \- antlr:antlr:jar:2.7.7:runtime
+[INFO] |  |  |  |  \- com.google.code.gson:gson:jar:2.8.0:runtime
+[INFO] |  |  |  \- org.apache.commons:commons-math:jar:2.2:runtime
+[INFO] |  |  +- com.netflix.archaius:archaius-core:jar:0.7.4:compile
+[INFO] |  |  +- javax.ws.rs:jsr311-api:jar:1.1.1:runtime
+[INFO] |  |  +- com.netflix.servo:servo-core:jar:0.10.1:runtime
+[INFO] |  |  |  \- com.netflix.servo:servo-internal:jar:0.10.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-core:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey:jersey-client:jar:1.19.1:runtime
+[INFO] |  |  +- com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1:runtime
+[INFO] |  |  +- org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[INFO] |  |  |  +- org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[INFO] |  |  |  \- commons-codec:commons-codec:jar:1.10:compile
+[INFO] |  |  +- com.google.inject:guice:jar:4.0:runtime
+[INFO] |  |  |  +- javax.inject:javax.inject:jar:1:runtime
+[INFO] |  |  |  \- aopalliance:aopalliance:jar:1.0:runtime
+[INFO] |  |  \- com.netflix.governator:governator-api:jar:1.12.10:runtime
+[INFO] |  +- com.netflix.eureka:eureka-core:jar:1.4.12:compile
+[INFO] |  |  +- com.netflix.governator:governator:jar:1.12.10:runtime
+[INFO] |  |  |  \- com.netflix.governator:governator-core:jar:1.12.10:runtime
+[INFO] |  |  |     +- com.google.inject.extensions:guice-multibindings:jar:4.0:runtime
+[INFO] |  |  |     \- com.google.inject.extensions:guice-grapher:jar:4.0:runtime
+[INFO] |  |  |        \- com.google.inject.extensions:guice-assistedinject:jar:4.0:runtime
+[INFO] |  |  \- org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1:runtime
+[INFO] |  |     +- javax.xml.stream:stax-api:jar:1.0-2:runtime
+[INFO] |  |     \- org.codehaus.woodstox:stax2-api:jar:3.1.4:runtime
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-archaius:jar:1.2.4.RELEASE:compile
+[INFO] |  |  +- commons-configuration:commons-configuration:jar:1.8:compile
+[INFO] |  |  |  \- commons-lang:commons-lang:jar:2.6:compile
+[INFO] |  |  \- com.google.guava:guava:jar:18.0:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.2.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.boot:spring-boot-starter-aop:jar:1.5.4.RELEASE:compile
+[INFO] |  |  +- org.springframework.retry:spring-retry:jar:1.2.0.RELEASE:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon:jar:2.2.0:compile
+[INFO] |  |  |  +- com.netflix.ribbon:ribbon-transport:jar:2.2.0:runtime
+[INFO] |  |  |  |  +- io.reactivex:rxnetty-contexts:jar:0.4.9:runtime
+[INFO] |  |  |  |  \- io.reactivex:rxnetty-servo:jar:0.4.9:runtime
+[INFO] |  |  |  \- io.reactivex:rxnetty:jar:0.4.9:runtime
+[INFO] |  |  |     +- io.netty:netty-codec-http:jar:4.0.27.Final:runtime
+[INFO] |  |  |     |  +- io.netty:netty-codec:jar:4.0.27.Final:runtime
+[INFO] |  |  |     |  \- io.netty:netty-handler:jar:4.0.27.Final:runtime
+[INFO] |  |  |     \- io.netty:netty-transport-native-epoll:jar:4.0.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-common:jar:4.0.27.Final:runtime
+[INFO] |  |  |        +- io.netty:netty-buffer:jar:4.0.27.Final:runtime
+[INFO] |  |  |        \- io.netty:netty-transport:jar:4.0.27.Final:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-core:jar:2.2.0:compile
+[INFO] |  |  +- com.netflix.ribbon:ribbon-httpclient:jar:2.2.0:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1:runtime
+[INFO] |  |  +- com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.0:compile
+[INFO] |  |  |  \- com.netflix.netflix-commons:netflix-statistics:jar:0.1.1:runtime
+[INFO] |  |  \- io.reactivex:rxjava:jar:1.1.10:compile
+[INFO] |  +- com.netflix.ribbon:ribbon-eureka:jar:2.2.0:compile
+[INFO] |  \- com.thoughtworks.xstream:xstream:jar:1.4.9:compile
+[INFO] |     +- xmlpull:xmlpull:jar:1.1.3.1:compile
+[INFO] |     \- xpp3:xpp3_min:jar:1.1.4c:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-hystrix:jar:1.2.4.RELEASE:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-core:jar:1.5.6:compile
+[INFO] |  |  \- org.hdrhistogram:HdrHistogram:jar:2.1.9:compile
+[INFO] |  +- com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.6:compile
+[INFO] |  |  \- com.netflix.hystrix:hystrix-serialization:jar:1.5.6:runtime
+[INFO] |  |     +- com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.8:runtime
+[INFO] |  |     \- com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:jar:2.8.8:runtime
+[INFO] |  \- com.netflix.hystrix:hystrix-javanica:jar:1.5.6:compile
+[INFO] |     +- commons-collections:commons-collections:jar:3.2.2:runtime
+[INFO] |     +- org.apache.commons:commons-lang3:jar:3.1:runtime
+[INFO] |     +- org.ow2.asm:asm:jar:5.0.4:runtime
+[INFO] |     \- org.aspectj:aspectjweaver:jar:1.8.10:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-hystrix-dashboard:jar:1.2.4.RELEASE:compile
+[INFO] |  \- org.springframework.cloud:spring-cloud-netflix-hystrix-dashboard:jar:1.2.4.RELEASE:compile
+[INFO] |     +- org.springframework.boot:spring-boot-starter-freemarker:jar:1.5.4.RELEASE:compile
+[INFO] |     |  +- org.freemarker:freemarker:jar:2.3.26-incubating:compile
+[INFO] |     |  \- org.springframework:spring-context-support:jar:4.3.9.RELEASE:compile
+[INFO] |     +- org.webjars:jquery:jar:2.1.1:compile
+[INFO] |     \- org.webjars:d3js:jar:3.4.11:compile
+[INFO] +- org.springframework.boot:spring-boot-starter-actuator:jar:1.5.4.RELEASE:compile
+[INFO] |  \- org.springframework.boot:spring-boot-actuator:jar:1.5.4.RELEASE:compile
+[INFO] +- org.springframework.cloud:spring-cloud-starter-feign:jar:1.2.4.RELEASE:compile
+[INFO] |  +- org.springframework.cloud:spring-cloud-commons:jar:1.1.7.RELEASE:compile
+[INFO] |  |  \- org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE:compile
+[INFO] |  +- io.github.openfeign:feign-core:jar:9.3.1:compile
+[INFO] |  |  \- org.jvnet:animal-sniffer-annotation:jar:1.0:compile
+[INFO] |  +- io.github.openfeign:feign-slf4j:jar:9.3.1:compile
+[INFO] |  \- io.github.openfeign:feign-hystrix:jar:9.3.1:compile
+[INFO] +- ch.qos.logback:logback-classic:jar:1.2.3:test
+[INFO] |  +- ch.qos.logback:logback-core:jar:1.1.11:test
+[INFO] |  \- org.slf4j:slf4j-api:jar:1.7.25:compile
+[INFO] +- org.slf4j:slf4j-simple:jar:1.7.25:compile
+[INFO] \- org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE:test
+[INFO]    +- org.springframework.boot:spring-boot-test:jar:1.5.4.RELEASE:test
+[INFO]    +- org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.4.RELEASE:test
+[INFO]    +- com.jayway.jsonpath:json-path:jar:2.2.0:test
+[INFO]    |  \- net.minidev:json-smart:jar:2.2.1:test
+[INFO]    |     \- net.minidev:accessors-smart:jar:1.1:test
+[INFO]    +- junit:junit:jar:4.12:test
+[INFO]    +- org.assertj:assertj-core:jar:2.6.0:test
+[INFO]    +- org.mockito:mockito-core:jar:1.10.19:test
+[INFO]    |  \- org.objenesis:objenesis:jar:2.1:test
+[INFO]    +- org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO]    +- org.hamcrest:hamcrest-library:jar:1.3:test
+[INFO]    +- org.skyscreamer:jsonassert:jar:1.4.0:test
+[INFO]    |  \- com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[INFO]    +- org.springframework:spring-core:jar:4.3.9.RELEASE:compile
+[INFO]    \- org.springframework:spring-test:jar:4.3.9.RELEASE:test
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 19.502 s
+[INFO] Finished at: 2018-03-30T16:35:21+08:00
+[INFO] ------------------------------------------------------------------------

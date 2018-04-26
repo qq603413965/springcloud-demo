@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eureka-consumer
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://www.xiaoshangxing.com:5847/sbpractice?useUnicode=true&characterEncoding=gbk&zeroDateTimeBehavior=convertToNull
+    username: sbpractice
+    password: abc1073794822!
+    driverClassName: com.mysql.jdbc.Driver
+    tomcat:
+      validationQuery: SELECT 1
+      testOnBorrow: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2222/eureka/
+server:
+  port: 4444

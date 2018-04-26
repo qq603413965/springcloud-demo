@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springcloud-hystrix
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:2222/eureka/
+server:
+  port: 5555
+feign:
+  hystrix:
+    enabled: true

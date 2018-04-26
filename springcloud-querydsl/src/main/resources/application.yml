@@ -1,0 +1,18 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:2222/eureka/
+server:
+    port: 4445
+spring:
+    application:
+        name: springcloud-querydsl
+    jpa:
+      show-sql: true
+      #hibernate:
+        #ddl-auto: update
+    datasource:
+      username: root
+      password: admin
+      url: jdbc:mysql://localhost:3306/demo?useUnicode=true&characterEncoding=gbk&zeroDateTimeBehavior=convertToNull
+      driver-class-name: com.mysql.jdbc.Driver

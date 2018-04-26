@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wushuaiping</groupId>
+    <artifactId>springcloud-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-DEMO</version>
+    <modules>
+        <module>springcloud-zuul</module>
+        <module>springcloud-register-center</module>
+        <module>springcloud-producer-a</module>
+        <module>springcloud-producer-b</module>
+        <module>springcloud-consumer-a</module>
+        <module>springcloud-consumer-b</module>
+        <module>springcloud-hystrix</module>
+        <module>springcloud-querydsl</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-parent</artifactId>
+        <version>Dalston.SR2</version>
+    </parent>
+
+</project>
